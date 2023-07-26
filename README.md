@@ -13,7 +13,7 @@ Kai
 
 ## How to run the game
 1. Make sure you have Python installed: https://wiki.python.org/moin/BeginnersGuide/Download
-2. Download the repo and save it locally
+2. Download the repo, save it locally, and unzip it
 3. Open your Terminal
 4. Navigate to the directory your taskmaster-island.py file is saved in
 5. Enter `python3 taskmaster-island.py` into the command line and hit enter
