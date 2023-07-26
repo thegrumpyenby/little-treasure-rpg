@@ -152,18 +152,6 @@ time.sleep(3)
 
 choose_door = input("> Which door do you choose? R, B, or G?\n")
 
-if choose_door.lower() == "red" or choose_door.lower() == "r":
-  time.sleep(3)
-  print("\n\n> Congratulations, you just burned to death in the fire behind the red door.")
-  print("> Game over.")
-  exit()
-
-if choose_door.lower() == "blue" or choose_door.lower() == "b":
-  time.sleep(3)
-  print("\n\n> Oh look, it’s your feline friend again! Meow!")
-  print("> Game over.")
-  exit()
-
 if choose_door.lower() == "green" or choose_door.lower() == "g":
   time.sleep(3)
   print("\n\n> You carefully pry open the door")
@@ -182,7 +170,17 @@ if choose_door.lower() == "green" or choose_door.lower() == "g":
   time.sleep(2)
   print("> This game is now over if you hadn’t noticed. Thank you for playing.")
   exit()
+elif choose_door.lower() == "red" or choose_door.lower() == "r":
+  time.sleep(3)
+  print("\n\n> Congratulations, you just burned to death in the fire behind the red door.")
+  print("> Game over.")
+  exit()
 
+elif choose_door.lower() == "blue" or choose_door.lower() == "b":
+  time.sleep(3)
+  print("\n\n> Oh look, it’s your feline friend again! Meow!")
+  print("> Game over.")
+  exit()
 else:
   print("\n\n> You should really be more diligent when typing. Game over.")
   exit()
